@@ -1,4 +1,5 @@
 # LWC-TS Boilerplate Example
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/fork/github/cardoso/lwr-project)
 
 The **LWC TS Boilerplate** example contains the minimum code needed to get a simple Single Page Application (SPA) on LWR running in Typescript.
 
