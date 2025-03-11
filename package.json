@@ -13,7 +13,8 @@
     "build:prod-compat": "lwr build --clean --mode prod-compat",
     "start": "lwr start",
     "stage": "pnpm build && pnpm start",
-    "stage:prod-compat": "pnpm build:prod-compat && pnpm start"
+    "stage:prod-compat": "pnpm build:prod-compat && pnpm start",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "lwc": "8.16.0",
@@ -25,10 +26,25 @@
     "@lwrjs/o11y": "0.17.2-alpha.21",
     "@lwrjs/router": "0.17.2-alpha.21"
   },
+  "devDependencies": {
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.2"
+  },
   "engines": {
     "node": ">=22.14.0"
   },
   "volta": {
     "node": "22.14.0"
-  }
+  },
+  "homepage": "https://github.com/cardoso/lwr-project#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cardoso/lwr-project.git"
+  },
+  "files": [
+    "src/**/*",
+    "lwr.config.json",
+    "tsconfig.json",
+    "README.md"
+  ]
 }
