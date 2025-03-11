@@ -4,7 +4,7 @@
   "license": "MIT",
   "private": true,
   "type": "module",
-  "packageManager": "pnpm@10.6.1",
+  "packageManager": "pnpm@10.6.2",
   "scripts": {
     "clean": "rimraf node_modules __lwr_cache__ site",
     "dev": "lwr dev",
